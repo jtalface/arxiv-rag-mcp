@@ -10,7 +10,9 @@ Two systems built on one shared dataset downloaded from arXiv's
    retrieved context.
 
 Both read the same source data via `shared/corpus.py`. See
-[`shared/DATA_CONTRACT.md`](shared/DATA_CONTRACT.md) for the schema.
+[`shared/DATA_CONTRACT.md`](shared/DATA_CONTRACT.md) for the schema, and
+[`ARCHITECTURE.md`](ARCHITECTURE.md) for how the MCP server is built and how a
+request flows through it.
 
 ## Layout
 
@@ -44,3 +46,10 @@ python3.13 -m venv .venv
 
 - MCP server: see [`mcp_server/README.md`](mcp_server/README.md)
 - RAG: see [`rag/README.md`](rag/README.md)
+
+## Documentation
+
+- [`ARCHITECTURE.md`](ARCHITECTURE.md) — MCP server design and request lifecycle
+- [`shared/DATA_CONTRACT.md`](shared/DATA_CONTRACT.md) — shared dataset schema
+- [`mcp_server/README.md`](mcp_server/README.md) — MCP tools + client config
+- [`rag/README.md`](rag/README.md) — RAG pipeline and `--answer` generation
