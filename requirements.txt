@@ -1,0 +1,5 @@
+# Base / data-pipeline dependencies (Python 3.13).
+# Component-specific deps live in mcp_server/requirements.txt and
+# rag/requirements.txt.
+requests>=2.31
+pypdf>=4.0

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Generated dataset (rebuild with scripts/download_arxiv.py + extract_text.py)
+data/
+
+# RAG vector store (rebuild with rag/ingest.py)
+rag/chroma_db/
+
+# Logs / OS
+*.log
+.DS_Store

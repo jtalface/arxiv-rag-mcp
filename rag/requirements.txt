@@ -1,0 +1,3 @@
+chromadb>=1.5
+sentence-transformers>=5.5
+anthropic>=0.69  # for --answer end-to-end generation (key from ANTHROPIC_API_KEY)
